@@ -1,0 +1,28 @@
+button {
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: var(--accent-color);
+}
+
+button:hover {
+  color: white;
+  background-color: var(--accent-color-active);
+}
+
+button:disabled {
+  background-color: var(--light-grey);
+}
+
+button.transparent-btn {
+  padding: 0;
+  background-color: transparent;
+  color: var(--black);
+}
+
+button.transparent-btn:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,42 @@
+@import "./typography.css";
+@import "./buttons.css";
+@import "./input.css";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --black: #330033;
+  --grey: #4e4a69;
+  --light-grey: #cccccc;
+  --red: rgb(232, 2, 2);
+  --accent-color: #ff5419;
+  --accent-color-active: #e73a00;
+  --accent-color-green: #428c1f;
+  --green-background-color: #eff3ec;
+}
+
+.col,
+.container,
+.row {
+  margin: 0;
+  padding: 0;
+  max-width: unset;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  padding: 0;
+  text-decoration: none;
+}
